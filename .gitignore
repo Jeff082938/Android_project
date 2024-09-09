@@ -48,3 +48,5 @@ google-services.json
 .externalNativeBuild
 .cxx
 local.properties
+/caches/
+*.jar
