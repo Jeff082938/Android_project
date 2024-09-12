@@ -7,6 +7,34 @@
     tools:context=".ui.home.HomeFragment">
 
     <TextView
+        android:id="@+id/Currentlocation"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="116dp"
+        android:background="@color/ic_launcher_background"
+        android:text="目前位置："
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Latitudeandlongitude"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/ic_launcher_background"
+        android:text="綜合評估：\n經緯度："
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Currentlocation"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
