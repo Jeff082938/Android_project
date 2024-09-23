@@ -1,309 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--／畫面中下詳細查詢-->
+<!--畫面右下角設定頁面-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment">
+    android:background="#ACACAC"
+    tools:context=".ui.dashboard.DashboardFragment">
 
-    <ScrollView
-        android:layout_width="446dp"
-        android:layout_height="866dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <TextView
+        android:id="@+id/landtext"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="128dp"
+        android:text="地"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ACACAC"
-            android:orientation="vertical">
-            <!--／各縣市按鈕滾動頁面-->
-
-            <TextView
-                android:id="@+id/City1"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="台北市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City2"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="桃園市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City3"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="新北市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City4"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="基隆市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City5"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="新竹縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City6"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="苗栗縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City7"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="台中市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City8"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="彰化縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City9"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="南投縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City10"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="雲林縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City11"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="嘉義縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City12"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="台南市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City13"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="高雄市"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City14"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="屏東縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City15"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="台東縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City16"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="花蓮縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City17"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="宜蘭縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City18"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="連江縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City19"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="澎湖縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/City20"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="16dp"
-                android:background="@color/ic_launcher_background"
-                android:text="金門縣"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintStart_toEndOf="@+id/myImageView"
-                app:layout_constraintTop_toTopOf="parent" />
+    <RatingBar
+        android:id="@+id/land"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="56dp"
+        android:numStars="5"
+        android:rating="2.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-        </LinearLayout>
-    </ScrollView>
+    <TextView
+        android:id="@+id/watertext"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="水"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/landtext" />
+
+    <RatingBar
+        android:id="@+id/water"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:numStars="5"
+        android:rating="2.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/land" />
+
+    <TextView
+        android:id="@+id/firetext"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="火"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watertext" />
+
+    <RatingBar
+        android:id="@+id/fire"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:numStars="5"
+        android:rating="2.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/water" />
+
+    <TextView
+        android:id="@+id/windtext"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="風"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firetext" />
+
+    <RatingBar
+        android:id="@+id/wind"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:numStars="5"
+        android:rating="2.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fire" />
+
+    <TextView
+        android:id="@+id/peopletext"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="人"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/windtext" />
+
+    <RatingBar
+        android:id="@+id/people"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:numStars="5"
+        android:rating="2.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wind" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
