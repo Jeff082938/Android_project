@@ -8,14 +8,27 @@
     tools:context=".ui.home.HomeFragment">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="319dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:text="風水雷達儀"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/Currentlocation"
         android:layout_width="400dp"
         android:layout_height="50dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="108dp"
         android:text="目前位置："
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,11 +36,12 @@
         android:id="@+id/Latitudeandlongitude"
         android:layout_width="402dp"
         android:layout_height="106dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="綜合評估：\n經緯度："
         android:textColorLink="@color/black"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Currentlocation" />
 
