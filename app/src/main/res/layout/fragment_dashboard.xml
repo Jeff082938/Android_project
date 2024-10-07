@@ -23,283 +23,304 @@
             android:orientation="vertical">
             <!--／各縣市按鈕滾動頁面-->
 
-            <TextView
+            <Button
                 android:id="@+id/City1"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="台北市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City2"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="桃園市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City3"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="新北市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City4"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="基隆市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City5"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="新竹縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City6"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="苗栗縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City7"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="台中市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City8"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="彰化縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City9"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="南投縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City10"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="雲林縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City11"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="嘉義縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City12"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="台南市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City13"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="高雄市"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City14"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="屏東縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City15"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="台東縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City16"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="花蓮縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City17"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="宜蘭縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City18"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="連江縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City19"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="澎湖縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
+            <Button
                 android:id="@+id/City20"
                 android:layout_width="400dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="90dp"
+                app:backgroundTint="@null"
                 android:background="@color/ic_launcher_background"
                 android:text="金門縣"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toEndOf="@+id/myImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
