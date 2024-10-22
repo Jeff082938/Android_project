@@ -24,11 +24,11 @@
         android:id="@+id/Currentlocation"
         android:layout_width="400dp"
         android:layout_height="50dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="100dp"
         android:text="目前位置："
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +36,7 @@
         android:id="@+id/Latitudeandlongitude"
         android:layout_width="402dp"
         android:layout_height="106dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:text="綜合評估：\n經緯度："
         android:textColorLink="@color/black"
         android:textSize="34sp"
@@ -57,5 +57,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="152dp"
+        android:text="Location result"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="288dp"
+        android:text="Show Location"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
