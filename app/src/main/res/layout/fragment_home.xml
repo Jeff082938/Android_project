@@ -63,10 +63,11 @@
         android:id="@+id/tv_result"
         android:layout_width="395dp"
         android:layout_height="61dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="320dp"
-        android:text="Location result"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="經緯度資訊："
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,5 +79,17 @@
         android:layout_marginEnd="284dp"
         android:text="Show Location"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="399dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="156dp"
+        android:text="地址資訊："
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
