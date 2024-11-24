@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.content.Intent;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.firstproject.Dashboard2;
 import com.example.firstproject.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
@@ -24,7 +25,12 @@ public class DashboardFragment extends Fragment {
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-
+        binding.C1.setOnClickListener(view -> {
+            // 彈出文字 "123"
+            Intent it = new Intent(getActivity(), Dashboard2.class);
+            //開始切換
+            startActivity(it);
+        });
         return root;
     }
 

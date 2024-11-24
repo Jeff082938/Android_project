@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 返回按鈕 -->
+
+    <!-- 標題 -->
+
+    <!-- 當前位置 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginBottom="8dp"
+            android:background="#279227"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="風水雷達儀"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/back_but"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="start"
+            android:background="@drawable/rounded_background"
+            android:contentDescription="@drawable/ic_back_arrow"
+            android:gravity="bottom"
+            android:src="@drawable/ic_back_arrow" />
+    </RelativeLayout>
+
+
+    <!-- Evaluation Summary -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/evaluationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="綜合評估：良好"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/coordinatesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="經緯度：25.0134709,121.5417815"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <!-- 按鈕區域 -->
+</LinearLayout>

@@ -29,6 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Dashboard2" />
+        <activity android:name=".RadarChartView" />
+        <activity android:name=".DetailData" />
     </application>
 
 </manifest>
