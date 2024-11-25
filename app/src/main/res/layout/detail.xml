@@ -20,15 +20,18 @@
 
         <TextView
             android:id="@+id/title_text"
-            android:layout_width="match_parent"
-            android:layout_height="73dp"
-            android:layout_marginBottom="8dp"
-            android:background="#279227"
-            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
             android:padding="12dp"
             android:text="風水雷達儀"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
 
         <ImageButton
             android:id="@+id/back_but"
@@ -57,8 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="綜合評估：良好"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/coordinatesText"
@@ -66,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="經緯度：25.0134709,121.5417815"
-            android:textSize="14sp" />
+            android:textColor="@color/black"
+            android:textSize="22sp" />
     </LinearLayout>
 
 

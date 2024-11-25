@@ -65,8 +65,8 @@
         android:layout_height="61dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="320dp"
-        android:textColor="@color/black"
         android:text="經緯度資訊："
+        android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,4 +92,6 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
