@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,8 +16,10 @@ public class Dashboard2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_dashboard2);
         // 找到按鈕 B1
+        //ImageButton buttonB1 = findViewById(R.id.B1);
+        //buttonB1.setContentDescription("返回箭頭按鈕");
         Button buttonB1 = findViewById(R.id.B1);
-        buttonB1.setText("leave");
+        buttonB1.setText("回主畫面");
         // 設置按鈕的點擊事件
         buttonB1.setOnClickListener(new View.OnClickListener() {
             @Override

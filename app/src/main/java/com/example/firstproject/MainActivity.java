@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showLocation(Location location){
 
-        String address = "緯度："+String.format("%.5f", location.getLatitude()) +"經度："+String.format("%.5f", Math.abs(location.getLongitude()));
+        String address = "  緯度："+String.format("%.5f", location.getLatitude()) +"  經度："+String.format("%.5f", Math.abs(location.getLongitude()));
 
         tvResult.setText(address);
         lastLocationText = address; // 儲存最新位置文本
