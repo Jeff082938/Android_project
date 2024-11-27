@@ -12,7 +12,7 @@
         android:layout_width="319dp"
         android:layout_height="70dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:text="風水雷達儀"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -24,7 +24,7 @@
         android:id="@+id/Currentlocation"
         android:layout_width="400dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:text="目前位置："
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
         android:id="@+id/Latitudeandlongitude"
         android:layout_width="402dp"
         android:layout_height="106dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
         android:text="綜合評估：\n經緯度："
         android:textColorLink="@color/black"
         android:textSize="34sp"
@@ -64,7 +64,7 @@
         android:layout_width="395dp"
         android:layout_height="61dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="280dp"
         android:text="經緯度資訊："
         android:textColor="@color/black"
         android:textSize="22sp"
@@ -75,7 +75,7 @@
         android:id="@+id/bt_show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="392dp"
+        android:layout_marginTop="350dp"
         android:layout_marginEnd="284dp"
         android:text="Show Location"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,12 +86,94 @@
         android:layout_width="399dp"
         android:layout_height="55dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="136dp"
         android:text="地址資訊："
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/btn_person_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="@color/white"
+            android:text="人"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/btn_earth_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="150dp"
+            android:backgroundTint="@color/white"
+            android:text="地"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/btn_water_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/white"
+            android:text="水"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/btn_fire_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="@color/white"
+            android:text="火"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/btn_wind_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="310dp"
+            android:backgroundTint="@color/white"
+            android:text="風"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
